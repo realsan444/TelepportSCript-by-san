@@ -1,0 +1,295 @@
+-- GUI to Lua
+-----
+-- Version: 2.0.
+-- Made by chrisopdemobiel.
+
+-- Instances:
+
+local TeleportExploit = Instance.new("ScreenGui")
+local MainTeleport = Instance.new("Frame")
+local Teleport = Instance.new("TextLabel")
+local TeleportTextb = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local bbcbcbdehsgsakjjCjlse = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local EXAMPLE1 = Instance.new("TextLabel")
+local EXAMPLE2 = Instance.new("TextLabel")
+local EXAMPLE3 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local OpenCredit = Instance.new("TextButton")
+local OPEN = Instance.new("ImageButton")
+
+--Properties:
+
+TeleportExploit.Name = "TeleportExploit"
+TeleportExploit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TeleportExploit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainTeleport.Name = "MainTeleport"
+MainTeleport.Parent = TeleportExploit
+MainTeleport.BackgroundColor3 = Color3.fromRGB(19, 125, 255)
+MainTeleport.Position = UDim2.new(0.0738310069, 0, 0.501033068, 0)
+MainTeleport.Size = UDim2.new(0.17842494, 0, 0.294421494, 0)
+MainTeleport.Visible = false
+
+Teleport.Name = "Teleport"
+Teleport.Parent = MainTeleport
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.BackgroundTransparency = 1.000
+Teleport.Size = UDim2.new(1, 0, 0.292397648, 0)
+Teleport.Font = Enum.Font.SourceSans
+Teleport.Text = "TELEPORT Exploit"
+Teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.TextScaled = true
+Teleport.TextSize = 14.000
+Teleport.TextWrapped = true
+
+TeleportTextb.Name = "TeleportTextb"
+TeleportTextb.Parent = MainTeleport
+TeleportTextb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTextb.Position = UDim2.new(0, 0, 0.754385948, 0)
+TeleportTextb.Size = UDim2.new(1, 0, 0.245614037, 0)
+TeleportTextb.Font = Enum.Font.SourceSans
+TeleportTextb.Text = "Teleport!"
+TeleportTextb.TextColor3 = Color3.fromRGB(0, 0, 0)
+TeleportTextb.TextScaled = true
+TeleportTextb.TextSize = 14.000
+TeleportTextb.TextWrapped = true
+
+TextBox.Parent = MainTeleport
+TextBox.BackgroundColor3 = Color3.fromRGB(19, 124, 255)
+TextBox.Position = UDim2.new(0, 0, 0.292397648, 0)
+TextBox.Size = UDim2.new(1, 0, 0.397660822, 0)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Put player username here (you dont need full user) but no display names."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+bbcbcbdehsgsakjjCjlse.Name = "bbcbcbdehsgsakjjCjlse"
+bbcbcbdehsgsakjjCjlse.Parent = MainTeleport
+bbcbcbdehsgsakjjCjlse.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+bbcbcbdehsgsakjjCjlse.Position = UDim2.new(1, 0, -0.23391813, 0)
+bbcbcbdehsgsakjjCjlse.Size = UDim2.new(0.367816091, 0, 0.23391813, 0)
+bbcbcbdehsgsakjjCjlse.Font = Enum.Font.Unknown
+bbcbcbdehsgsakjjCjlse.Text = "X"
+bbcbcbdehsgsakjjCjlse.TextColor3 = Color3.fromRGB(0, 0, 0)
+bbcbcbdehsgsakjjCjlse.TextScaled = true
+bbcbcbdehsgsakjjCjlse.TextSize = 14.000
+bbcbcbdehsgsakjjCjlse.TextWrapped = true
+
+UITextSizeConstraint.Parent = bbcbcbdehsgsakjjCjlse
+UITextSizeConstraint.MaxTextSize = 40
+
+EXAMPLE1.Name = "EXAMPLE1"
+EXAMPLE1.Parent = MainTeleport
+EXAMPLE1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXAMPLE1.Position = UDim2.new(1, 0, 0, 0)
+EXAMPLE1.Size = UDim2.new(0.367816091, 0, 0.292397648, 0)
+EXAMPLE1.Font = Enum.Font.SourceSans
+EXAMPLE1.Text = "Example:"
+EXAMPLE1.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXAMPLE1.TextScaled = true
+EXAMPLE1.TextSize = 14.000
+EXAMPLE1.TextWrapped = true
+
+EXAMPLE2.Name = "EXAMPLE2"
+EXAMPLE2.Parent = MainTeleport
+EXAMPLE2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXAMPLE2.Position = UDim2.new(1, 0, 0.292397648, 0)
+EXAMPLE2.Size = UDim2.new(0.367816091, 0, 0.292397648, 0)
+EXAMPLE2.Font = Enum.Font.SourceSans
+EXAMPLE2.Text = "Theres a user called carlos88fj"
+EXAMPLE2.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXAMPLE2.TextScaled = true
+EXAMPLE2.TextSize = 14.000
+EXAMPLE2.TextWrapped = true
+
+EXAMPLE3.Name = "EXAMPLE3"
+EXAMPLE3.Parent = MainTeleport
+EXAMPLE3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXAMPLE3.Position = UDim2.new(1, 0, 0.584795296, 0)
+EXAMPLE3.Size = UDim2.new(0.367816091, 0, 0.415204674, 0)
+EXAMPLE3.Visible = false
+EXAMPLE3.Font = Enum.Font.SourceSans
+EXAMPLE3.Text = "I would put \"carlos\" and i ut tp to him."
+EXAMPLE3.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXAMPLE3.TextScaled = true
+EXAMPLE3.TextSize = 14.000
+EXAMPLE3.TextWrapped = true
+
+Frame.Parent = MainTeleport
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.683907986, 0, 1.69590628, 0)
+Frame.Size = UDim2.new(1, 0, 0.842105269, 0)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0, 0, 0.0558785349, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.325096816, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Sanjeesh -OWNER/BUTTONS/SCRIPTS"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.612403095, 0)
+TextLabel_2.Size = UDim2.new(1, 0, 0.387596905, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Need help with boss hub too? or this? MEssage SanTheDev#0430"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.Position = UDim2.new(0, 0, 0.380975395, 0)
+TextButton.Size = UDim2.new(1, 0, 0.230135739, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "CLOSE CREDITS"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+OpenCredit.Name = "OpenCredit"
+OpenCredit.Parent = MainTeleport
+OpenCredit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenCredit.Position = UDim2.new(-0.000881634653, 0, -0.10133633, 0)
+OpenCredit.Size = UDim2.new(1, 0, 0.0994152054, 0)
+OpenCredit.Font = Enum.Font.SourceSans
+OpenCredit.Text = "CREDITS"
+OpenCredit.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenCredit.TextScaled = true
+OpenCredit.TextSize = 14.000
+OpenCredit.TextWrapped = true
+
+OPEN.Name = "OPEN"
+OPEN.Parent = TeleportExploit
+OPEN.BackgroundColor3 = Color3.fromRGB(0, 34, 255)
+OPEN.BackgroundTransparency = 1.000
+OPEN.Position = UDim2.new(0.0440935194, 0, 0.886708021, 0)
+OPEN.Size = UDim2.new(0.123051681, 0, 0.113636367, 0)
+OPEN.Image = "rbxassetid://6723742952"
+
+-- Scripts:
+
+local function ASIHSXF_fake_script() -- bbcbcbdehsgsakjjCjlse.LocalScript 
+	local script = Instance.new('LocalScript', bbcbcbdehsgsakjjCjlse)
+
+	local hhhhhhhhhhhhhhhhhhhhhhhhhhhhh = script.Parent.Parent.Parent.MainTeleport
+	local PEN = script.Parent.Parent.Parent.OPEN
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		hhhhhhhhhhhhhhhhhhhhhhhhhhhhh.Visible = false
+		PEN.Visible = true
+	end)
+end
+coroutine.wrap(ASIHSXF_fake_script)()
+local function BSEPQP_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function click() -- script the script one
+		script.Parent.Parent:TweenPosition(
+	
+			UDim2.new(0.684, 0,1.696, 0),
+			"InOut",
+			"Quad",
+	
+			1,
+			false
+	
+		)
+	
+	
+		wait(1)
+	
+		script.Parent.Parent.Visible = false
+	
+	
+	end
+	
+	script.Parent.MouseButton1Click:Connect(click)
+end
+coroutine.wrap(BSEPQP_fake_script)()
+local function BBKJZ_fake_script() -- OpenCredit.Script 
+	local script = Instance.new('Script', OpenCredit)
+
+	function click()
+		script.Parent.Parent.Frame.Visible = true
+		script.Parent.Parent.Frame:TweenPosition(
+			
+			UDim2.new(0.532, 0,0.15, 0),
+			"InOut",
+			"Quad",
+			1,
+			false
+			
+		)
+	end
+	script.Parent.MouseButton1Click:Connect(click)
+	--0, 0,-0.86, 0
+end
+coroutine.wrap(BBKJZ_fake_script)()
+local function RYMODHZ_fake_script() -- OPEN.LocalScript 
+	local script = Instance.new('LocalScript', OPEN)
+
+	local hhhhhhhhhhhhhhhhhhhhhhhhhhhhh = script.Parent.Parent.MainTeleport
+	local OPEN = script.Parent.Parent.OPEN
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		hhhhhhhhhhhhhhhhhhhhhhhhhhhhh.Visible = true
+		OPEN.Visible = false
+	end)
+end
+coroutine.wrap(RYMODHZ_fake_script)()
+--script
+function GetPlayer(String)
+	local Found = {}
+	local strl = String:lower()
+	if strl == "all" then
+		for i,v in pairs(game.Players:GetPlayers()) do
+			table.insert(Found,v.Name)
+		end
+	elseif strl == "others" then
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= game.Players.LocalPlayer.Name then
+				table.insert(Found,v.Name)
+			end
+		end   
+	elseif strl == "me" then
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name == game.Players.LocalPlayer.Name then
+				table.insert(Found,v.Name)
+			end
+		end  
+	else
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name:lower():sub(1, #String) == String:lower() then
+				table.insert(Found,v.Name)
+			end
+		end    
+	end
+	return Found    
+end
+-------------------------------------------------------
+TeleportTextb.MouseButton1Click:Connect(function()
+	for i,v in pairs(GetPlayer(TextBox.Text)) do
+		if game.Players:FindFirstChild(v) then
+			if game.Players[v].Character:FindFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+			end
+		end
+	end
+end)
